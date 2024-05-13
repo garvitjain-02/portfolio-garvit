@@ -17,9 +17,27 @@
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+
+    <script>
+      window.onload = () => {
+        document.getElementById('loader').style.display = "none";
+        document.getElementById('container').style.display = "block";
+      };
+    </script>
+
   </head>
   <body>
-    <div class="container">
+    <div id="loader">
+      <div class="wrapper">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="shadow"></div>
+        <div class="shadow"></div>
+        <div class="shadow"></div>
+      </div>
+    </div>
+    <div id="container">
       <div class="box-header">
         <div class="box-logo">
           <img src="Remove-bg.ai_1714165105130.png" width="60" alt="" />
@@ -71,7 +89,11 @@
               extraordinary!"
             </p>
             <button id="cv">
-              <a href="https://drive.google.com/file/d/17l4ZSRyxO18gz0pvgCDAz65vONT5Hm4Y/view?usp=sharing" class="iconid">Download CV <i class="fa-solid fa-file-arrow-down"></i></a>
+              <a
+                href="https://drive.google.com/file/d/13eYa0ymoofS53d-A-Yu_dyO2dfMoeYV-/view?usp=sharing"
+                class="iconid"
+                >Download CV <i class="fa-solid fa-file-arrow-down"></i
+              ></a>
             </button>
             <div class="social">
               <div class="socialicon">
@@ -116,14 +138,64 @@
           </div>
         </div>
         <div class="skills">
-          <div class="skillset"><img src="clogo.png" alt="" /></div>
-          <div class="skillset"><img src="c++logo.png" alt="" /></div>
-          <div class="skillset"><img src="htmllogo.png" alt="" /></div>
-          <div class="skillset"><img src="csslogo.png" alt="" /></div>
-          <div class="skillset"><img src="jslogo.png" alt="" /></div>
-          <div class="skillset"><img src="pythonlogo.png" alt="" /></div>
-          <div class="skillset"><img src="bootstraplogo.png" alt="" /></div>
-          <div class="skillset"><img src="vscodelogo.png" alt="" /></div>
+          <div class="skillcard">
+            <div class="skillcard2">
+              <img src="clogo-removebg-preview.png" alt="" />
+            </div>
+          </div>
+          <div class="skillcard">
+            <div class="skillcard2">
+              <img src="c++logo-removebg-preview.png" alt="" />
+            </div>
+          </div>
+          <div class="skillcard">
+            <div class="skillcard2">
+              <img src="pythonlogo-removebg-preview.png" alt="" />
+            </div>
+          </div>
+          <div class="skillcard">
+            <div class="skillcard2">
+              <img src="bootstraplogo-removebg-preview.png" alt="" />
+            </div>
+          </div>
+          <div class="skillcard">
+            <div class="skillcard2">
+              <img src="vscodelogo-removebg-preview.png" alt="" />
+            </div>
+          </div>
+          <div class="skillcard">
+            <div class="skillcard2">
+              <img src="htmllogo-removebg-preview.png" alt="" />
+            </div>
+          </div>
+          <div class="skillcard">
+            <div class="skillcard2">
+              <img src="csslogo-removebg-preview.png" alt="" />
+            </div>
+          </div>
+          <div class="skillcard">
+            <div class="skillcard2">
+              <img src="jslogo-removebg-preview.png" alt="" />
+            </div>
+          </div>
+          <div class="skillcard">
+            <div class="skillcard2">
+              <img
+                src="icons8-figma-480.png"
+                alt=""
+                style="height: 80px; width: 80px; padding: 20px 20px"
+              />
+            </div>
+          </div>
+          <div class="skillcard">
+            <div class="skillcard2">
+              <img
+                src="github (1).png"
+                alt=""
+                style="height: 80px; width: 80px; padding: 20px 20px"
+              />
+            </div>
+          </div>
         </div>
       </div>
 
@@ -199,7 +271,12 @@
       </div>
 
       <div class="backtotop">
-        <a href="#" id="anchor"><div class="back" >Back to top <i class="fa-solid fa-angles-up"></i></div></a>
+        <button class="backtotop1">
+          <a href="#" id="anchor"
+            ><div class="back">
+              Back to top <i class="fa-solid fa-angles-up"></i></div
+          ></a>
+        </button>
       </div>
     </div>
 
